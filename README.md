@@ -239,7 +239,8 @@ After you have successfully configured your MongoDB cluster, you will need to pr
 2. **Run the Following Script in your Backend terminal to Add Employees to the Database:**  
    ``` bash
    npm run seed:employees
-This will add employees to the database.  
+This will add employees to the database, you can find the script in the `Backend` directory by navigating to the *Scripts* folder where you can view/edit the `seedEmployees.js` file.  
+  
 For further instructions about how to access the Employee Portal, view the `Running the Application` and `Usage` sections below.  
 
 ## Running the Application
