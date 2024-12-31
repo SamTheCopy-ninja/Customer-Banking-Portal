@@ -1,0 +1,39 @@
+.navigation {
+    background-color: #0077BE;
+    color: white;
+    padding: 5px 0;
+  }
+  
+  .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1px;
+  }
+  
+  .nav-logo {
+    height: 40px;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+  }
+  
+  .navigation ul li {
+    margin-left: 20px;
+  }
+  
+  .navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navigation ul li a:hover {
+    text-decoration: underline;
+  }

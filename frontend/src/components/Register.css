@@ -1,0 +1,80 @@
+.register-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .register-left {
+    flex: 1;
+    background-color: #0077BE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .bank-logo {
+    width: 200px;
+  }
+  
+  .register-left h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .register-right {
+    flex: 1;
+    background-color: #E31837;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .register-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .register-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #E31837;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #0077BE;
+    text-decoration: none;
+  }
